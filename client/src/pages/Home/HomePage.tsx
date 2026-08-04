@@ -1,15 +1,19 @@
+import Container from "@/components/common/Container";
+
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-5xl font-bold">
-          AI Interview Preparation Platform
-        </h1>
+    <Container>
+      <section className="flex min-h-[calc(100vh-160px)] items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-5xl font-bold tracking-tight">
+            AI Interview Preparation Platform
+          </h1>
 
-        <p className="mt-4 text-neutral-400">
-          Module 1 - Part 3 Completed
-        </p>
-      </div>
-    </main>
+          <p className="mt-6 text-lg text-neutral-400">
+            Production-ready React architecture is taking shape.
+          </p>
+        </div>
+      </section>
+    </Container>
   );
 }
